@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.head {
+    
+    display: block;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-decoration: none;
+    color: aqua;
+  }
+
+.navbar ul{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+.navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease;
+  }
+
+  .navbar a:hover {
+    color: aquamarine;
+  }  
+.navbar li{
+    margin-left: 50px;
+    text-decoration: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.portfolio-container{
+    background-color: rgb(12, 12, 12);
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            height: 100%;
+            padding: 20px;
+        }
+
+.About{
+    margin-top: 120px;
+}        
+.About p{
+    margin-top: 20px;
+    color: aliceblue;
+    text-align: justify;
+    width: 800px;
+    font-size: x-large;
+}
+.About h1{
+    color: aqua;
+    text-align: left;
+}
+
+.Projects{
+    margin-top: 100px;
+    display: flex;
+}
+.Projects h3{
+    margin-top: 30px;
+    color: rgb(93, 158, 214);
+}
+.Projects p{
+    margin-top: 30px;
+    color: aliceblue;
+    width: 330px;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.Projects a{
+    
+    color: aqua;
+    float:inline-end;
+    margin-top: 10px;
+}
+.projects2{
+    display: flex;
+}
+
+.Project2{
+    align-content: center;
+    color: aliceblue;
+    text-align: justify;
+    width: 330px;
+    margin-left: 30px;
+}
+.Project2 h3{
+    align-self: center;
+    margin-top: 30px;
+    color: rgb(93, 158, 214);
+}
+
+.Project2 p{
+    margin-top: 30px;
+}
+.Project2 a{
+    
+    color: aqua;
+    float:inline-end;
+    margin-top: 10px;
+}
+
+.Projects .project1,
+.projects2 .Project2 {
+  /* Your existing styles */
+  transition: transform 0.3s ease;
+}
+
+.Projects .project1:hover,
+.projects2 .Project2:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+
+.AcademicDetails{
+    margin-top: 50px;
+    color: aliceblue;
+    text-align:right;
+    
+
+}
+
+.AcademicDetails h2{
+    color: aqua;
+    text-decoration: underline;
+}
+
+.AcademicDetails h3{
+    color: aqua;
+    margin-top: 20px;
+}
+.Certifications{
+    text-align: left;
+}
+.Certifications h2{
+    color:aqua;
+}
+
+.Certifications h3{
+    color:rgb(251, 255, 255);
+    margin-top: 3px;
+}
+.skills{
+    margin-top: 100px;
+    display: flex;
+    margin-right: 30px;
+    
+
+}
+
+.Skills h2{
+    margin-bottom:30px ;
+    text-align: left;
+    color: aqua;
+
+}
+.Skills .b1 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-right: 30px;
+}
+
+.Skills .b2 p{
+    margin-top: 60px;
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-right: 50px;
+}
+.Skills{
+    margin-left: 40px;
+    display: flex;
+}
+.Skills .b3 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.Skills .b4 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+}
+.Skills .b5 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.Skills .b6 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+}
+
+.Skills .b7 p{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-left: 50px;
+}
+
+
+.Fotter{
+    margin-top: 50px;
+    background-color:rgba(128, 128, 128, 0.268) ;
+    height: 150px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+}
+.Fotter .LINKS a{
+    text-decoration: none;
+    color: aquamarine;
+    margin-left: -500px;
+    margin-top: 30px;
+
+}
+
+.Fotter .LINKS{
+    margin-top: 20px;
+}
+ 
+
+.About,
+.AcademicDetails,
+.Certifications,
+.Projects,
+.projects2,
+.Skills,
+.Fotter {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 5;
+  }
+}
+
+
+
+
+/* Button hover effect */
+.project-link {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  
